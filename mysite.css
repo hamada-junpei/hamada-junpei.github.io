@@ -1,86 +1,105 @@
-*{
-    margin:0;
-    padding:0;
+* {
+	margin: 0;
+	padding: 0;
 }
-
-header{
-    background-image:URL(header-bg.jpg);
-    background-size:cover;
-
+h2 {
+	position: relative;
+	padding: 0.6em;
+	background: -webkit-repeating-linear-gradient(-45deg, #fff5df, #fff5df 4px, #ffe4b1 3px, #ffe4b1 8px);
+	background: repeating-linear-gradient(-45deg, #fff5df, #fff5df 4px, #ffe4b1 3px, #ffe4b1 8px);
+	border-radius: 7px;
+	margin: 0px 0px 30px 0px;
+	font-family: "Rounded Mplus 1c";
+	font-weight: bold;
 }
-
-body{
-    background-color: #ccffff;
+h2:before {
+	position: absolute;
+	content: '';
+	top: 100%;
+	left: 30px;
+	border: 15px solid transparent;
+	border-top: 15px solid #ffebbe;
+	width: 0;
+	height: 0;
 }
-
-#icon{
-    width:150px;
-    border-radius: 10%;
-    border:solid white;
-    margin:40px 30px -30px 30px;
+p,li{
+	font-family: "Noto Sans Japanese";
+	font-weight: bold;
 }
-
-#myname{
-    font-weight: bold;
-    color: white;
-    font-size: 40px;
-    text-shadow: 2px 2px 1px black;
+header {
+	background-image: URL(header-bg.jpg);
+	background-size: cover;
 }
-
-
-nav{
-    background-color: #aacccc;
-    border-radius: 10px 10px 0px 0px;
+body {
+	background-color: #ccffff;
 }
-
-
-nav ul li{
-    display: inline;
-    margin: 0 15px 0 15px;
+#icon {
+	width: 150px;
+	border-radius: 10%;
+	border: solid white;
+	margin: 40px 30px -30px 30px;
 }
-
-nav ul li a{
-    text-decoration: none;
-    color: #444444;
-    font-weight: bold;
-
+#myname {
+	color: white;
+	font-size: 40px;
+	text-shadow: 2px 2px 1px black;
+	font-family: "Rounded Mplus 1c";
+	font-weight: bold;
 }
-
-.top{
-    width: 800px;
-    margin: 0px auto 0px auto;
-
+nav {
+	background-color: #aacccc;
+	border-radius: 10px 10px 0px 0px;
 }
-
-nav ul{
-    margin-left: 210px;
+nav ul li {
+	display: inline;
+	margin: 0 15px 0 15px;
 }
-
-.container{
-    background-color: white;
-    width: 740px;
-    margin: 0 auto 0 auto;
-    padding: 30px 30px 60px 30px;
-    border-radius: 0px 0px 10px 10px;
+nav ul li a {
+	text-decoration: none;
+	color: #444444;
+	font-family: "Rounded Mplus 1c";
 }
-
-.profile{
-    padding: 0px 20px 0px 20px;
-    line-height: 35px;
+.top {
+	width: 800px;
+	margin: 0px auto 0px auto;
 }
-
-hr{
-    margin: 20px 0px 20px 0px;
+nav ul {
+	margin-left: 210px;
 }
-
-footer{
-    position: fixed;
-    bottom:0;
-    background-color: #aacccc;
-    
-    width:100%;
-    text-align: center;
-    color: #666666;
-    padding: 20px 0px 20px 0px;
-    font-size: 11px;
+.container {
+	background-color: white;
+	width: 740px;
+	margin: 0 auto 0 auto;
+	padding: 30px 30px 60px 30px;
+	border-radius: 0px 0px 10px 10px;
+}
+.profile {
+	padding: 0px 20px 0px 20px;
+	line-height: 35px;
+}
+.profile ul, ol {
+	background: #fcfcfc;/*背景色*/
+	padding: 0.5em 0.5em 0.5em 2em;/*ボックス内の余白*/
+	border: solid 3px gray;/*線の種類 太さ 色*/
+}
+.profile ul li, ol li {
+	line-height: 1.5; /*文の行高*/
+	padding: 0.5em 0; /*前後の文との余白*/
+}
+.profile span {
+	font-size: 14px;
+	float: right;
+}
+hr {
+	margin: 20px 0px 20px 0px;
+}
+#footer {
+	bottom: 0;
+	background-color: #aacccc;
+	width: 100%;
+	text-align: center;
+	color: #666666;
+	padding: 20px 0px 20px 0px;
+	font-size: 11px;
+	margin-top: 30px;
 }
