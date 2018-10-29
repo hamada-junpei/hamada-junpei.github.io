@@ -63,6 +63,13 @@ nav ul li a {
 	width: 800px;
 	margin: 0px auto 0px auto;
 }
+
+
+
+
+
+
+
 nav ul {
 	margin-left: 210px;
 }
@@ -78,13 +85,14 @@ nav ul {
 	line-height: 35px;
 }
 .profile ul, ol {
-	background: #fcfcfc;/*背景色*/
-	padding: 0.5em 0.5em 0.5em 2em;/*ボックス内の余白*/
-	border: solid 3px gray;/*線の種類 太さ 色*/
+  color: #668ad8;/*文字色*/
+  border: dashed 2px #668ad8;/*破線 太さ 色*/
+  background: #f1f8ff; /*背景色*/
+  padding: 0.5em 0.5em 0.5em 2em;
 }
 .profile ul li, ol li {
-	line-height: 1.5; /*文の行高*/
-	padding: 0.5em 0; /*前後の文との余白*/
+  line-height: 1.5;
+  padding: 0.5em 0;
 }
 .profile span {
 	font-size: 14px;
