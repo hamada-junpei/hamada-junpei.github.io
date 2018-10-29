@@ -22,6 +22,12 @@ h2:before {
 	width: 0;
 	height: 0;
 }
+
+h3 {
+background: #c2edff;/*背景色*/
+padding: 0.5em;/*文字まわり（上下左右）の余白*/
+}
+
 p,li{
 	font-family: "Noto Sans Japanese";
 	font-weight: bold;
@@ -88,11 +94,13 @@ nav ul {
   color: #668ad8;/*文字色*/
   border: dashed 2px #668ad8;/*破線 太さ 色*/
   background: #f1f8ff; /*背景色*/
-  padding: 0.5em 0.5em 0.5em 2em;
+  padding: 5px;
 }
 .profile ul li, ol li {
   line-height: 1.5;
   padding: 0.5em 0;
+  list-style: none;
+  margin-bottom: 5px;
 }
 .profile span {
 	font-size: 14px;
