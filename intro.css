@@ -43,7 +43,9 @@ body {
 .btn:hover {
 	opacity: 1.0;
 }
-
+.btn-center{
+	margin: 0 auto;
+}
 /* header */
 header h1 {
 	margin-top: 0;

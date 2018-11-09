@@ -90,21 +90,27 @@ nav ul {
 	padding: 0px 20px 0px 20px;
 	line-height: 35px;
 }
-.profile ul, ol {
+
+
+
+section ul, ol {
   color: #668ad8;/*文字色*/
   border: dashed 2px #668ad8;/*破線 太さ 色*/
   background: #f1f8ff; /*背景色*/
   padding: 5px;
 }
-.profile ul li, ol li {
+section ul li, ol li {
   line-height: 1.5;
   padding: 0.5em 0;
   list-style: none;
   margin-bottom: 5px;
 }
-.profile span {
+.profile #right {
 	font-size: 14px;
 	float: right;
+}
+.profile #red{
+	color:red;
 }
 hr {
 	margin: 20px 0px 20px 0px;

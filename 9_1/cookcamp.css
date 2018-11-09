@@ -1,0 +1,307 @@
+body {
+	margin: 0 auto;
+	min-width: 960px;
+	background-color: #f5f5dd;
+}
+/* ヘッダー */
+.head {
+	max-width: 960px;
+	margin: 0 auto;
+	height: 80px;/*overflow: hidden;
+    position:relative;*/
+}
+header {
+	width: 100%;
+	background-color: #FFF;
+}
+.logo {
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 0;
+	padding: 0;/*position:absolute;
+    top: 50%;
+    transform: translateY(-50%);*/
+}
+.head h1 {
+	color: #664433;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+.search {
+	float: right;
+	margin-top: 24px;/*transform: translateY(100%);*/
+}
+.header-nav {
+	max-width: 960px;
+	margin: 0 auto;
+}
+.header-nav ul {
+	list-style: none;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 5px;
+	display: flex;
+	justify-content: center;
+}
+.header-nav li {
+	padding: 6px;
+	border-right: 1px solid #AAA;
+	flex-grow: 1;
+	display: inline-block;
+}
+.header-nav li:last-of-type {
+	border: none;
+}
+.header-nav li a {
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	text-align: center;
+	color: #664433;
+	font-weight: bold;
+}
+header {
+	background-color: #FFF;
+	border-bottom: 1px solid #cccccc;
+}
+/* メインコンテンツ */
+main {
+	max-width: 960px;
+	margin: 0 auto;
+}
+/* メイン画像 */
+.main-view {
+	background-image: url(mainView.jpg);
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+	margin-top: 2px;
+	margin-bottom: 15px;
+}
+/* 角丸タイトル */
+
+/*main h1:before{
+    content:url(dish.png);
+}*/
+
+/* table-cellを使ってh1の中央にバーティカルアラインで真ん中に配置真ん中に配置 
+main h1 span{
+    display:table-cell;
+    vertical-align:middle;
+}*/
+
+/*main h1 img{*/
+/*    vertical-align:middle;*/
+/*    margin:3px 0px 3px 14px;*/
+/*}*/
+
+.knife-icon {
+	margin-right: 10px;
+}
+.arrow {
+	padding: 0 0 0 34px;
+	background-image: url(arrow.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+/* 左列　レシピ*/
+.left-bar {
+	width: 220px;
+	float: left;
+}
+h2 {
+	margin-top: 0;
+	margin-bottom: 15px;
+	padding: 5px 0 5px 34px;
+	color: #fff;
+	background-color: #99bb22;
+	border-radius: 50px;
+	background-image: url(dish.png);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	font-size: 18px;
+}
+.cook-recipe {
+	background-color: #fff;
+	padding: 15px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+.purpose-recipe {
+	background-color: #fff;
+	padding: 15px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+.left ul {
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+.left li {
+	border-bottom: 2px dotted #eee;
+	list-style: none;
+	padding: 5px;
+}
+.left li:last-of-type {
+	border: none;
+}
+.left li a {
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	color: #664433;
+	font-weight: bold;
+}
+/* 中央列 */
+.center-bar {
+	float: left;
+	width: 586px;
+}
+/* 中央列　新着レシピ */
+.new-recipe {
+	background-color: #fff;
+	padding: 15px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+	height: 160px;
+}
+.new-recipe ul {
+	list-style: none;
+	padding: 0;
+	margin: 10px;
+}
+.new-recipe li {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.new-recipe li a {
+	text-decoration: none;
+	font-size: 10px;
+	text-align: center;
+}
+.indent {
+	text-indent: 1em;
+}
+.right-text {
+	width: 276px;
+	float: right;
+}
+/* 中央列　トピック */
+.topics {
+	background-color: #fff;
+	padding: 15px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+	overflow: hidden;
+}
+.topic-content {
+	padding: 0 10px;
+}
+.topic-image {
+	float: left;
+	margin-right: 20px;
+}
+.topics p {
+	margin-top: 0;
+	line-height: 130%;
+	overflow: hidden;
+	font-size: 14px;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+.topics h2 {
+	font-size: 16px;
+}
+/* 中央列　おすすめレシピ */
+
+.push-recipe {
+	background-color: #fff;
+	padding: 15px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+.push1 {
+	padding: 0 10px;
+	overflow: hidden;
+}
+.push2 {
+	padding: 0 10px;
+	overflow: hidden;
+}
+.push-img {
+	margin-right: 10px;
+	float: left;
+	clear: both;
+}
+.push-recipe h3 {
+	color: #664433;
+	margin-top: 0;
+	font-size: 16px;
+}
+.push-recipe p {
+	line-height: 130%;
+	overflow: hidden;
+	font-size: 14px;
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+/* もっと読む */
+.more {
+	float: right;
+	text-decoration: none;
+	color: #fc8833;
+	margin: 5px 0;
+}
+/* 広告 */
+.ad1 {
+	margin-bottom: 10px;
+	padding: 0;
+}
+/* フッター */
+footer {
+	border-top: 1px solid #CCCCCC;
+	clear: both;
+	width: 100%;
+	background-color: #FFF;
+}
+.footer-nav {
+	max-width: 960px;
+	margin: 0 auto;
+}
+footer ul {
+	width: 475px;
+	margin: 0 auto;
+	list-style: none;
+	padding-top: 16px;
+	margin-top: 0;
+	padding-bottom: 16px;
+	/*display:flex;
+    justify-content: center;*/
+	overflow: hidden;
+}
+footer li {
+	margin: 0 auto;
+	border-right: 1px solid #AAA;
+	padding: 4px 10px;
+	float: left;/*flex-grow:1;*/
+}
+footer li:last-of-type {
+	border: none;
+}
+footer li a {
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+	font-weight: normal;
+}
+footer .copyright {
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: 8px;
+	color: #AAA;
+	font-weight: normal;
+}
